@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+</head>
+<body>
+    <h2>Confirmation</h2>
+    <label>Order ID: </label><span th:text="${newOrder.orderId}"></span><br/>
+    <label>Pizza type:</label><span th:text="${newOrder.pizzaType}"></span><br/>
+    <label>Client name:</label><span th:text="${newOrder.clientName}"></span><br/>
+    <label>Client Address:</label><span th:text="${newOrder.clientAddress}"></span>
+</body>
+</html>
